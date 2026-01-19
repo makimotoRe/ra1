@@ -1,0 +1,56 @@
+.textMain{
+    font-size: 50px;
+    margin-bottom: 0px;
+    border-bottom: solid;
+    
+}
+
+.maintenancePage{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    min-height: 100%;
+    color:white;
+    /* background:radial-gradient(51% 98%, #D3D4CF 7%, #BDBFBA 98%); */
+    background-color:rgba(0, 0, 0, 0.89);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* 最終状態は不透明に */
+    }
+}
+
+.maintenancePage .container{
+    justify-content: space-between;
+    padding:40px;
+    margin-bottom: 110px;
+    /* border:solid ; */
+    /* border-color:gainsboro; */
+}
+
+.LogoStyle{
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    /* background-color:black; */
+}
+
+a{
+   color:blueviolet;
+   font-weight: bold;
+}
+ .back{
+    position:fixed;
+    width: 100vw;
+    z-index: 1000;
+    background-color: black !important; 
+    border-bottom: solid;
+    
+ }

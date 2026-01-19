@@ -1,0 +1,16 @@
+import { Title } from "react-admin";
+import { styled } from "@mui/material/styles";
+
+const {{pascalCase name}} = ({children}:any) => {
+  return (
+    <{{pascalCase name}}Styled>
+    <Title title="{{titleCase name}}" />
+    {children}
+    </{{pascalCase name}}Styled>
+  );
+};
+
+export default {{pascalCase name}};
+
+const {{pascalCase name}}Styled = styled('div')(({ theme }) => ({
+  }));

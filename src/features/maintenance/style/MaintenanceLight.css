@@ -1,0 +1,79 @@
+.maintenance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f8f8fb;
+    color: #2e002e;
+}
+
+
+.backe {
+    position:fixed;
+    width: 100%;
+     background-color: white;
+     border-bottom: solid;
+
+ }
+/* デフォルトスタイル */
+.maintenance h1 {
+    font-size: 2em;
+}
+
+.maintenance p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+
+/* 小さい画面用スタイル */
+@media (max-width: 600px) {
+    .maintenance h1 {
+        font-size: 1.5em;
+    }
+
+    .maintenance p {
+        font-size: 0.9em;
+    }
+
+    .maintenance .MuiSvgIcon-root {
+        font-size: 100px;
+    }
+}
+
+/* 中くらいの画面用スタイル */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .maintenance h1 {
+        font-size: 1.8em;
+    }
+
+    .maintenance p {
+        font-size: 0.95em;
+    }
+
+    .maintenance .MuiSvgIcon-root {
+        font-size: 125px;
+    }
+}
+
+/* 大きい画面用スタイル */
+@media (min-width: 1025px) {
+    .maintenance h1 {
+        font-size: 2em;
+    }
+
+    .maintenance p {
+        font-size: 1em;
+    }
+
+    .maintenance .MuiSvgIcon-root {
+        font-size: 150px;
+    }
+}
+
+.css-y2nywq-MuiScopedCssBaseline-root {
+    background-color: transparent !important;
+}
